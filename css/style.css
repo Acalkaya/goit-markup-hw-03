@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: white;
+    /* Eksik noktalı virgül eklendi */
+    margin: 0 auto;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  :root {
+    --main-blue: #2196f3;
+    --purple: #4d5ae5;
+    --navy-blue: #2e2f42;
+    --grey-paragraphs: #434455;
+    --off-white: #f4f4fd;
+    --white: #fff;
+  }
+  
+  .section {
+    padding: 120px 0;
+  }
+  
+  /* Logo section */
+  .header {
+    border-bottom: 1px solid #e7e9fc;
+  }
+  
+  .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-link {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17em;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-right: 76px;
+    text-decoration: none;
+  }
+  
+  .logo-part {
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .logo {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-size: 18px;
+    line-height: 1.17;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  
+  .logo-part {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17em;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  
+  /* Page description */
+  .list {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .page-description-link {
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    /* Tekrar tanımlama kaldırıldı */
+    display: inline-block;
+    padding: 24px 0;
+    text-decoration: none;
+  }
+  
+  .page-description:hover,
+  .page-description:focus {
+    color: #404bbf;
+  }
+  
+  /* Contacts */
+  .contact {
+    font-style: normal;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+  
+  .address-description {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+  }
+  
+  .link {
+    padding: 24px 0;
+    text-decoration: none;
+  }
+  
+  .address-description:hover,
+  .address-description:focus {
+    color: #404bbf;
+  }
+  
+  /* Main */
+  .main-title {
+    padding: 188px 0;
+    background-color: #2e2f42;
+  }
+  
+  .main-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07em;
+    text-align: center;
+    letter-spacing: 1.12px;
+    margin: 0 auto;
+    max-width: 496px;
+    padding-bottom: 48px;
+  }
+  
+  .hero-button {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    margin: 0 auto;
+  }
+  
+  .hero-button:hover,
+  .hero-button:focus {
+    color: #ffffff;
+    background-color: #404bbf;
+  }
+  
+  .hero {
+    background-color: #2e2f42;
+    padding: 188px 0;
+  }
+  
+  .hero-title {
+    color: #fff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    /* "px" kaldırıldı */
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    max-width: 496px;
+  }
+  
+  /* Our team */
+  .our-team-title {
+    color: #2e2f42;
+    /* Eksik noktalı virgül eklendi */
+    font-size: 36px;
+    font-weight: 700;
+    /* "px" kaldırıldı */
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  
+  .our-team-background {
+    background-color: #f4f4fd;
+    padding: 120px 0;
+  }
+  
+  .our-team-title-list {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .our-team-names {
+    padding: 32px 0;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .our-team-name {
+    color: #2e2f42;
+    /* Eksik noktalı virgül eklendi */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+  }
+  
+  .our-team-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+  }
+  
+  .our-team-box {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  .our-team {
+    background-color: #f4f4fd;
+    padding: 0;
+  }
+  
+  .our-portfolio-title {
+    color: #2E2F42;
+    /* Eksik noktalı virgül eklendi */
+    font-size: 36px;
+    font-weight: 700;
+    /* "px" kaldırıldı */
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .our-portfolio-background {
+    background-color: #f4f4fd;
+  }
+  
+  .our-team-title-list {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .our-portfolio-names {
+    text-align: center;
+    background-color: #ffffff;
+    width: 264px;
+  }
+  
+  .our-team-name{
+    color: #312476;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+  }
+  
+  .our-team-paragraph {
+    color: #e46b07;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    font-weight: 400;
+    line-height: 1.5em;
+    max-width: 264px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+  }
+  
+  .logo-part-foot {
+    color: #404bbf;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  
+  .logo-foot {
+    color: white;
+    /* Eksik noktalı virgül eklendi */
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17em;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+  }
+  
+  .footer-paragraph {
+    color: white;
+    /* Eksik noktalı virgül eklendi */
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    font-weight: 400;
+    line-height: 1.5em;
+    max-width: 264px;
+  }
+  
