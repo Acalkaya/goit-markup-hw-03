@@ -11,7 +11,9 @@
     /* Eksik noktalı virgül eklendi */
     margin: 0 auto;
   }
-  
+  img{
+    display: block;
+  }
   ul,
   ol {
     list-style: none;
@@ -194,7 +196,6 @@
     text-align: center;
     font-size: 56px;
     font-weight: 700;
-    /* "px" kaldırıldı */
     line-height: 1.07;
     letter-spacing: 1.12px;
     max-width: 496px;
@@ -203,10 +204,8 @@
   /* Our team */
   .our-team-title {
     color: #2e2f42;
-    /* Eksik noktalı virgül eklendi */
     font-size: 36px;
     font-weight: 700;
-    /* "px" kaldırıldı */
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-align: center;
@@ -258,10 +257,8 @@
   
   .our-portfolio-title {
     color: #2E2F42;
-    /* Eksik noktalı virgül eklendi */
     font-size: 36px;
     font-weight: 700;
-    /* "px" kaldırıldı */
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
@@ -274,6 +271,7 @@
   .our-team-title-list {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
   }
   
   .our-portfolio-names {
