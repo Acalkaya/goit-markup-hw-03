@@ -288,6 +288,9 @@
     text-transform: capitalize;
     display: none;
     margin-bottom: 72px;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-basis: calc(100% - 60px) / 3);
   }
   
   .our-portfolio-background {
@@ -302,7 +305,7 @@
     display: flex;
   }
   .our-portfolio-title-list {
-    row-gap: 48px;
+    margin-bottom: 72px;
   }
   
   .our-portfolio-names {
