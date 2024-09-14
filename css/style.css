@@ -59,7 +59,10 @@
     margin-bottom: 8px;
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
+
   
   .logo-nav {
     display: flex;
@@ -218,6 +221,7 @@
   }
   
   /* Our team */
+
   .our-team-title {
     color: #2e2f42;
     font-size: 36px;
@@ -277,9 +281,7 @@
     text-align: center;
     text-transform: capitalize;
     display: none;
-    margin-bottom: 8px;
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    margin-bottom: 72px;
   }
   
   .our-portfolio-background {
