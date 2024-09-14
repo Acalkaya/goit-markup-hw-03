@@ -179,7 +179,6 @@
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 2%;
-
   }
   .hero-button {
     font-family: "Roboto", sans-serif;
@@ -287,8 +286,6 @@
   }
   
   .our-team-title-list {
-    display: flex;
-    gap: 24px;
     flex-wrap: wrap;
     margin-bottom: 72px;
   }
@@ -298,7 +295,10 @@
     background-color: #ffffff;
     width: 264px;
   }
-  
+  .our-portfolio-name {
+    width: 134px;
+    height: 24px;
+  }
   .our-team-name{
     color: #312476;
     font-size: 20px;
