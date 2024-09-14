@@ -220,6 +220,11 @@
   }
   
   /* Our team */
+  .container{
+    padding: 32px 16px;
+    margin-bottom: 8px;
+    border: 1px solid #e7e9fc;
+  }
   .our-team-title {
     color: #2e2f42;
     font-size: 36px;
@@ -291,7 +296,9 @@
     margin-bottom: 72px;
     gap: 24px;
     display: flex;
-
+  }
+  .our-portfolio-title-list {
+    row-gap: 48px;
   }
   
   .our-portfolio-names {
