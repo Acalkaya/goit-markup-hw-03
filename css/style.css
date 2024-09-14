@@ -321,12 +321,16 @@
   }
   .our-portfolio-title-list {
     margin-bottom: 72px;
+    row-gap: 48px;
+    flex-basis: calc((100% - 60px) / 3);
   }
   
   .our-portfolio-names {
     text-align: center;
     background-color: #ffffff;
     width: 264px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
   }
   .our-portfolio-name {
     color: #434455;
