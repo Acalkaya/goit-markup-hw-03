@@ -181,6 +181,12 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
+    margin-bottom: 8px;
+
+  }
+  .goals-list{
+    display: flex;
+    gap: 24px;
   }
   .hero-button {
     font-family: "Roboto", sans-serif;
