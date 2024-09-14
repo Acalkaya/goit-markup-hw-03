@@ -41,9 +41,12 @@
   /* Logo section */
   .header {
     border-bottom: 1px solid #e7e9fc;
+
   }
   
   .container {
+    margin: 0 auto;
+    padding: 0 15px;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
