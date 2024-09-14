@@ -21,7 +21,6 @@
     display: flex;
     gap: 24px;
     flex-wrap: wrap
-
   }
   
   :root {
@@ -180,7 +179,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    margin-bottom: 8px;
 
   }
   .goals-list{
