@@ -21,7 +21,6 @@
     display: flex;
     gap: 24px;
     flex-wrap: wrap
-    row-gap: 48px;
 
   }
   
@@ -179,7 +178,6 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 2%;
   }
   .hero-button {
     font-family: "Roboto", sans-serif;
