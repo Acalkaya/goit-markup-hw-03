@@ -300,7 +300,6 @@
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    display: none;
     margin-bottom: 72px;
     column-gap: 24px;
     row-gap: 48px;
@@ -317,11 +316,11 @@
     display: flex;
   }
   .our-portfolio-title-list {
-    margin-bottom: 72px;
-    row-gap: 48px;
-  }
-  .our-portfolio-box{
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    display: flex;
+    justify-content: space-between;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 72px) / 3);
   }
   .our-portfolio-names {
     text-align: center;
