@@ -254,9 +254,8 @@
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-    margin-bottom: 8px;
   }
-  
+  /* Our team */
   .our-team-paragraph {
     font-size: 16px;
     line-height: 1.5;
@@ -280,6 +279,7 @@
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    display: none;
   }
   
   .our-portfolio-background {
@@ -289,6 +289,9 @@
   .our-team-title-list {
     flex-wrap: wrap;
     margin-bottom: 72px;
+    gap: 24px;
+    display: flex;
+
   }
   
   .our-portfolio-names {
