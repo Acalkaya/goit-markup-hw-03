@@ -292,6 +292,7 @@
   
   .our-portfolio-background {
     background-color: #f4f4fd;
+    width: calc((100% - 72px) / 4);
   }
   
   .our-team-title-list {
