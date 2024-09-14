@@ -59,6 +59,8 @@
     margin-bottom: 8px;
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
+    padding: 0 15px;
+    margin: 0 auto;
   }
   
   .logo-nav {
