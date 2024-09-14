@@ -322,9 +322,10 @@
   .our-portfolio-title-list {
     margin-bottom: 72px;
     row-gap: 48px;
+  }
+  .our-portfolio-box{
     flex-basis: calc((100% - 3 * 24px) / 4);
   }
-  
   .our-portfolio-names {
     text-align: center;
     background-color: #ffffff;
