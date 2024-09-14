@@ -309,7 +309,6 @@
   
   .our-portfolio-background {
     background-color: #f4f4fd;
-    width: calc((100% - 72px) / 4);
   }
   
   .our-team-title-list {
@@ -321,7 +320,6 @@
   .our-portfolio-title-list {
     margin-bottom: 72px;
     row-gap: 48px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
   }
   .our-portfolio-box{
     flex-basis: calc((100% - 3 * 24px) / 4);
