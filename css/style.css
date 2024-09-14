@@ -171,7 +171,16 @@
     max-width: 496px;
     padding-bottom: 48px;
   }
-  
+  .goals title{
+    font-family: "Roboto", sans-serif;
+    width: 264px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
+
+  }
   .hero-button {
     font-family: "Roboto", sans-serif;
     color: #ffffff;
