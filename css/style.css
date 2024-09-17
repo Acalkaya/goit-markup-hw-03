@@ -318,13 +318,12 @@
   }
   .our-portfolio-title-list {
     display: flex;
-    justify-content: space-between;
     column-gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px
   }
   .our-portfolio-box{
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 3);
   }
   .our-portfolio-names {
     text-align: center;
